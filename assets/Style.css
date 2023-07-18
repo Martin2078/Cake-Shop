@@ -1,0 +1,205 @@
+:root{
+    --Naranja-claro: #FFEADD;
+    --Rosa-claro: #FCAEAE;
+    --Rosa: #FF8989;
+    --Rosa-oscuro: #FF6666;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans'
+}
+.image{
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px rgb(97, 95, 95);
+}
+.titles{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+    font-size: 3vw;
+    text-shadow: 2px 2px rgb(97, 95, 95);
+}
+h2{
+    text-decoration: underline;
+    font-size: 1vw;  
+}
+
+main{
+    padding: 1rem;
+}
+
+/* Menu */
+.menu {
+    background-color: var(--Rosa-oscuro);
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancormenu{
+    margin: 0rem 1rem 0rem 2rem;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 1px 1px rgb(97, 95, 95);
+    height: 2rem;
+    padding: 0.3rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0) ;
+}
+
+.ancormenu:hover{
+    background-color: var(--Naranja-claro);
+    border-radius: 1rem;
+    transition: 1s;
+    border: 1px solid black;
+}
+ #logo{
+    height: 15vh;
+    object-fit: contain;
+    transform: translate(-2rem, 1rem);
+} 
+
+
+
+
+/* Index */
+main{
+    background-color: var(--Rosa);
+    min-height: 88vh;
+}
+.img-principal{
+    height: 30vh;
+    width: 60vw;
+    object-fit: cover;
+}
+.text{
+    margin-top: 10vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+div p{
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+}
+.img-Home{  
+    height: 25vh;
+    width: 23vw;
+    margin-left: 1rem;
+}
+
+
+
+
+
+/* About Us */
+#AUdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    margin-top: 2rem;
+}
+.AboutUs1{
+    display: flex;
+}
+.img-aboutus{
+    height: 20vh;
+    width: 18vw;
+    object-fit: cover;
+    margin-right: 10vw;
+}
+p{
+    font-weight: bolder;
+}
+
+
+
+
+/* Contact */
+#ContactMailandPhone{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    text-shadow: 1px 1px rgb(97, 95, 95);
+}
+
+
+.img-contact{
+    height: 50vh;
+    width: 50vw;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-top: 2vh;
+}
+h3{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vw;
+}
+
+
+
+/* Information */
+table,tr,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 80vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--Rosa-claro);
+}
+thead{
+    font-weight: bolder;
+}
+#Informationdiv{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* BenefitsTips */
+#BenefitsTipsdiv{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vh;
+    align-items: center;
+}
+.img-BenefitsTips{
+    height: 30vh;
+    width: 30vw;
+    object-fit: cover;
+    margin-right: 5vw;
+}
+ol,ul,li{
+    width: 40vw;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+/* Footer */
+footer{
+    background-color: var(--Rosa-oscuro);
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
