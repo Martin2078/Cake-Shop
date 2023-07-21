@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowy Cream - Raffle</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="shortcut icon" href="../assets/image/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="menu">
+        <nav>
+            <a class="ancormenu" href="../index.html">Home</a>
+            <a class="ancormenu" href="./aboutUs.html">About Us</a>
+            <a class="ancormenu" href="./contact.html">Contact</a>
+            <a class="ancormenu" href="./information.html">Information</a>
+            <a class="ancormenu" href="./benefitsTips.html">BenefitsTips</a>
+            <a class="ancormenu" href="#">Raffle</a>
+        </nav>
+        <img id="logo" src="./assets/image/logo.png" alt="LogoType">
+    </header>
+
+    <main>
+        <section class="titles">
+            <h1>Raffle</h1>
+            <h2>You can collaborate so that we expand the business and by doing so you will be participating in the raffle for a box of traditional ice creams</h2>
+        </section>
+        
+        <form action="./show_data.html" method="get">
+
+            <div class="RaffleLocation">
+                <p>Our location is located at:</p>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.719496770303!2d-58.52147111042373!3d-34.6617862907675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc93a3ba895ab%3A0xf7aedd3fb3853a84!2sMcDonald&#39;s!5e0!3m2!1ses!2sar!4v1689782213031!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" frameborder="0"></iframe>
+            </div>
+
+            <fieldset>
+                <label class="write" for="FirstName">First Name
+                    <input type="text" name="FirstName" id="FirstName">
+                </label>
+
+                <label class="write" for="LastName">Last Name
+                    <input type="text" name="LastName" id="LastName">
+                </label>
+
+                <label class="write" class="write" for="MeetOrZoom">Choose Meet or Zoom
+                    <select name="MeetorZoom" id="MeetOrZoom">
+                        <option value=""></option>
+                        <option value="Meet">Meet</option>
+                        <option value="Zoom">Zoom</option>
+                    </select>
+                </label>
+
+                <label class="write" for="Date">Choose Date
+                    <input type="date" name="Date" id="Date">
+                </label>
+
+                <label for="Payment" name="Payment">Payment Options
+                    <br>
+                    <input type="radio" id="Cash" value="Cash">
+                    <label for="Cash">Cash</label>
+                    <br>
+                    <input type="radio" id="CreditCard" value="CreditCard">
+                    <label for="CreditCard">Credit Card</label>
+                    <br>
+                    <input type="radio" id="DebitCard" value="DebitCard">
+                    <label for="DebitCard">Debit Card</label>
+                </label>
+
+                <label class="write" for="Message">Message (Optional)
+                    <input type="text" name="Message" id="Message">
+                </label>
+
+                <div>
+                    <input type="checkbox">
+                    <label for="">I accept terms and conditions...</label>
+                    <input id="send" type="submit" value="Send">
+                </div>
+
+
+            </fieldset>
+        </form>
+
+
+    </main>
+    <footer>
+        <h4>Created by: Martin Leonel Galan</h4>   
+    </footer>
+</body>
+</html>
